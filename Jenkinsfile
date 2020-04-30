@@ -66,7 +66,7 @@ pipeline {
                         timeout: 30
                     )
                     if (response.status != 200) {
-                        error('Smoketest against canary deployment failed.")
+                        error("Smoketest against canary deployment failed.")
                     }
                 }
             }
